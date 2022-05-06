@@ -1,0 +1,12 @@
+/******************************
+    GENERAL STYLES
+*******************************/
+
+:root {
+    /* Palette */
+    --primary-green: #6bb89e;
+    /* Commons */
+    --header-footer-color: #374252;
+    --about-info-color: #47576d;
+    --black-titles-color: #383838;
+}
