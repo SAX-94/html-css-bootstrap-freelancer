@@ -23,6 +23,8 @@ body {
 
 section {
     min-height: 300px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 footer {
@@ -68,6 +70,43 @@ nav ul > li > a:hover {
 main > section:nth-child(1) {
     background-color: var(--primary-green);
 }
+
+.my_cont-1 {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.my_cont-1 > img {
+    width: 200px !important;
+    padding-bottom: 1rem;
+    padding-top: 1.7rem;
+}
+
+.my_cont-1 >h1 {
+    font-weight: 600;
+    font-size: 3.3em;
+}
+
+.star_stripes {
+    align-items: center;
+}
+
+.white_rule {
+    display: inline-block;
+    height: 3px;
+    background-color: white;
+    width: 160px;
+}
+
+.fa-star {
+    font-size: 1.7rem;
+    padding: 1.6rem
+}
+
+
 
 /* ----- SECOND SECTION -----*/
 
