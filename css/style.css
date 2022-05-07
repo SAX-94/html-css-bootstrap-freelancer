@@ -19,6 +19,16 @@ body {
     SITE SECTIONS
 *******************************/
 
+/* -------- SOLO PER DEBUG -------- */
+
+section {
+    min-height: 300px;
+}
+
+footer {
+    min-height: 150px;
+}
+
 /* ----- HEADER - NAVBAR -----*/
 
 header {
@@ -42,4 +52,47 @@ nav ul > li {
     display: inline-block;
     padding: 1rem;
     font-weight: 600;
+}
+
+/* ----- FIRST SECTION -----*/
+
+main > section:nth-child(1) {
+    background-color: var(--primary-green);
+}
+
+/* ----- SECOND SECTION -----*/
+
+main > section:nth-child(2) {
+    background-color: white;
+}
+
+
+
+/* ----- THIRD SECTION -----*/
+
+main > section:nth-child(3) {
+    background-color: var(--primary-green);
+}
+
+
+
+/* ----- FOURTH SECTION -----*/
+
+main > section:nth-child(4) {
+    background-color: white;
+}
+
+
+
+/* ----- FIRST FOOTER ----- */
+
+body > footer:nth-child(3) {
+    background-color: var(--about-info-color);
+}
+
+
+/* ----- SECOND FOOTER ----- */
+
+body > footer:nth-child(4) {
+    background-color: var(--header-footer-color);
 }
