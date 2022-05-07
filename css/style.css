@@ -54,6 +54,15 @@ nav ul > li {
     font-weight: 600;
 }
 
+nav ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul > li > a:hover {
+    color: var(--primary-green);
+}
+
 /* ----- FIRST SECTION -----*/
 
 main > section:nth-child(1) {
