@@ -95,13 +95,23 @@ main > section:nth-child(1) {
     padding: 0.6rem 1.6rem;
 }
 
-
-
 /* ----- SECOND SECTION -----*/
 
 main > section:nth-child(2) {
     background-color: white;
 }
+
+.my_cont-2 {
+    align-items: center;
+}
+
+.dark_rule {
+    display: inline-block;
+    height: 3px;
+    background-color: #374252;
+    width: 160px;
+}
+
 
 
 
