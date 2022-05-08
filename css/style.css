@@ -168,7 +168,17 @@ main > section:nth-child(4) {
     color: var(--header-footer-color);
 }
 
+/*
+FORM
+*/
+form > button {
+    background-color: var(--primary-green) !important;
+    color: white !important;
+}
 
+textarea {
+    height: 8rem !important;
+}
 
 /* ----- FIRST FOOTER ----- */
 
