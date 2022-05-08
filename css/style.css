@@ -26,12 +26,6 @@ section {
     padding-bottom: 2rem;
 }
 
-footer {
-    min-height: 150px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
 /* ----- HEADER - NAVBAR -----*/
 
 header {
@@ -159,8 +153,8 @@ main > section:nth-child(4) {
 body > footer:nth-child(3) {
     background-color: var(--about-info-color);
     color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .round_logo {
@@ -178,6 +172,9 @@ body > footer:nth-child(3) {
 
 body > footer:nth-child(4) {
     background-color: var(--header-footer-color);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
