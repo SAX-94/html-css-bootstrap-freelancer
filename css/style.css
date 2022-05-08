@@ -55,9 +55,9 @@ HAMBURGER
 */
 .hamburger {
     width: 35px;
-    height: 25px;
+    height: 27px;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 4px;    
 }
 
 .hamburger > i{
