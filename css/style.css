@@ -76,7 +76,7 @@ main > section:nth-child(1) {
 
 .my_cont-1 >h1 {
     font-weight: 600;
-    font-size: 3.3rem;
+    font-size: 3rem;
 }
 
 .star_stripes {
@@ -108,8 +108,12 @@ main > section:nth-child(2) {
 .dark_rule {
     display: inline-block;
     height: 3px;
-    background-color: #374252;
+    background-color: var(--header-footer-color);
     width: 160px;
+}
+
+.dark_rule + .fa-star {
+    color: var(--header-footer-color);
 }
 
 .my_wrapper {
@@ -132,6 +136,7 @@ main > section:nth-child(2) {
 
 main > section:nth-child(3) {
     background-color: var(--primary-green);
+    color: white;
 }
 
 
