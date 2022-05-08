@@ -22,13 +22,14 @@ body {
 /* -------- SOLO PER DEBUG -------- */
 
 section {
-    min-height: 300px;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 footer {
     min-height: 150px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* ----- HEADER - NAVBAR -----*/
@@ -157,6 +158,19 @@ main > section:nth-child(4) {
 
 body > footer:nth-child(3) {
     background-color: var(--about-info-color);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.round_logo {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    width: 2rem;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
 }
 
 
