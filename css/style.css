@@ -19,8 +19,6 @@ body {
     SITE SECTIONS
 *******************************/
 
-/* -------- SOLO PER DEBUG -------- */
-
 section {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -32,6 +30,10 @@ header {
     background-color: var(--header-footer-color);
     color: white;
     padding: 0.7rem 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .start_bs {
@@ -56,6 +58,7 @@ NAVBAR
 
 main > section:nth-child(1) {
     background-color: var(--primary-green);
+    padding-top: 5rem;
 }
 
 .my_cont-1 {
