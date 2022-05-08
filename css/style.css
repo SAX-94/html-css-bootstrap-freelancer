@@ -64,6 +64,15 @@ HAMBURGER
     color: gray;
 }
 
+.hamburger:hover {
+    background-color: var(--about-info-color);
+    box-shadow:  2.5px 3px 4px white;
+}
+
+.hamburger:hover > i {
+    color: white;
+}
+
 /* ----- FIRST SECTION -----*/
 
 main > section:nth-child(1) {
