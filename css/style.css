@@ -50,6 +50,20 @@ NAVBAR
     color: var(--primary-green);
 }
 
+/*
+HAMBURGER
+*/
+.hamburger {
+    width: 35px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.hamburger > i{
+    color: gray;
+}
+
 /* ----- FIRST SECTION -----*/
 
 main > section:nth-child(1) {
