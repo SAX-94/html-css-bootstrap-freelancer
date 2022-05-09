@@ -2,6 +2,15 @@
     GENERAL STYLES
 *******************************/
 
+
+/* Avrei potuto modificare in :root la variabile 
+di Boootstrap dedicata al colore primario, e
+sostituirla col mio. Stessa cosa per quello secondario,
+o anche con altre, a seconda della mia palette in uso. 
+Così potrei usare le classi che danno direttamente il 
+background sulla base di questi colori. E' sempre meglio
+controllare con cosa interagicono le classsi che vado a 
+moadificare */
 :root {
     /* Palette */
     --primary-green: #6bb89e;
