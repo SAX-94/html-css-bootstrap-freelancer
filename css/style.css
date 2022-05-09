@@ -170,6 +170,8 @@ main > section:nth-child(2) {
 main > section:nth-child(3) {
     background-color: var(--primary-green);
     color: white;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
 
 main > section:nth-child(3) button{
