@@ -24,9 +24,9 @@ Google penalizza il sito, non indicizzandolo, perchè lo considera scritto male.
                 <!-- RIGHT COL -->
                 <div class="col-sm-4 offset-sm-3 offset-lg-4 align-items-center d-none d-sm-none d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
                     <div class="row row-cols-3 flex-shrink-0">
-                        <div class="col text-center"><a href="#">PORTFOLIO</a></div>
-                        <div class="col text-center"><a href="#">ABOUT</a></div>
-                        <div class="col text-center"><a href="#">CONTACT</a></div>
+                        <div class="col text-center"><a href="#portfolio">PORTFOLIO</a></div>
+                        <div class="col text-center"><a href="#about">ABOUT</a></div>
+                        <div class="col text-center"><a href="#contact">CONTACT</a></div>
                     </div>                   
                 </div>
                 <!-- HAMBURGER -->
@@ -54,7 +54,7 @@ Google penalizza il sito, non indicizzandolo, perchè lo considera scritto male.
     </div>
     </section>
     <!-- SECOND SECTION - PORTFOLIO SIX CARDS (WHITE) -->
-    <section>
+    <section id="portfolio">
         <div class="container">
             <div class="my_cont-2 d-flex flex-column">
                 <h1 class="fw-bold">PORTFOLIO</h1>
@@ -78,7 +78,7 @@ Google penalizza il sito, non indicizzandolo, perchè lo considera scritto male.
         </div>
     </section>
     <!-- THIRD SECTION - ABOUT (GREEN) -->
-    <section>
+    <section id="about">
         <div class="container">
             <div class="my_cont-1 d-flex flex-column">
                 <h1>ABOUT</h1>
@@ -108,7 +108,7 @@ Google penalizza il sito, non indicizzandolo, perchè lo considera scritto male.
         </div>
     </section>
     <!-- FOURTH SECTION - CONTACT ME (FORM) (WHITE) -->
-    <section>
+    <section id="contact">
         <div class="container">
             <div class="my_cont-2 d-flex flex-column">
                 <h1 class="fw-bold">CONTACT ME</h1>
@@ -124,12 +124,12 @@ Google penalizza il sito, non indicizzandolo, perchè lo considera scritto male.
             <!-- FORM -->
             <form>                
                 <div class="form-floating">
-                    <label for="form_name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="form_name">
+                    <input class="form-control" placeholder="Name" id="floatingName"></input>
+                    <label for="floatingName">Name</label>
                 </div>
                 <div class="form-floating">
-                    <label for="form_email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="form_email" aria-describedby="emailHelp">                    
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+                    <label for="floatingEmail">Email address</label>
                 </div>
                 <div class="form-floating">
                     <label for="form_number" class="form-label">Phone Number</label>
