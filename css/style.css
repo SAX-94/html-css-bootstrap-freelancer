@@ -13,6 +13,7 @@ controllare con cosa interagicono le classsi che vado a
 moadificare */
 :root {
     /* Palette */
+    --bs-primary: #6bb89e;
     --primary-green: #6bb89e;
     /* Commons */
     --header-footer-color: #374252;
