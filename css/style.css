@@ -225,7 +225,8 @@ body > footer:nth-child(3) {
 }
 
 .round_logo:hover {
-    box-shadow: white 2px 2px 5px;
+    box-shadow: white 5px 5px 6px;
+    filter: invert(100%);
 }
 
 
