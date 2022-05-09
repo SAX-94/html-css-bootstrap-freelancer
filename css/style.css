@@ -180,6 +180,12 @@ main > section:nth-child(4) {
 /*
 FORM
 */
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 form > button {
     background-color: var(--primary-green) !important;
     color: white !important;
