@@ -215,6 +215,10 @@ body > footer:nth-child(3) {
     align-items: center;
 }
 
+.round_logo:hover {
+    box-shadow: white 2px 2px 5px;
+}
+
 
 /* ----- SECOND FOOTER ----- */
 
