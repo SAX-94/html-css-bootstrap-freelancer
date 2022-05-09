@@ -191,6 +191,11 @@ FORM
     border-right: 0;
 }
 
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid var(--primary-green);
+}
+
 form > button {
     background-color: var(--primary-green) !important;
     color: white !important;
