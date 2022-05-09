@@ -155,6 +155,10 @@ main > section:nth-child(2) {
     overflow: hidden;
 }
 
+.img_cont:hover {
+    filter: brightness(60%);
+}
+
 .img_cont> img {
     width: 100%;
     object-fit: cover;
